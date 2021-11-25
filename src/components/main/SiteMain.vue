@@ -42,6 +42,7 @@
 
             <!-- width open posts -->
             <div class="extended_posts">
+                <ExtendedPost />
             </div>
 
             <!-- posts from social -->
@@ -54,12 +55,14 @@
 <script>
 import HeroPost from './HeroPost.vue'
 import MiniPost from './MiniPost.vue'
+import ExtendedPost from './ExtendedPost.vue'
 
 export default {
   name: 'SiteMain',
   components: {
     HeroPost,
-    MiniPost
+    MiniPost,
+    ExtendedPost
   },
   data () {
     return {
