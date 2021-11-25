@@ -26,7 +26,7 @@ export default {
           id: '46',
           genre: 'PHOTOGRAPY',
           title: 'How To Take Better Concert Pictures in 30 Seconds',
-          text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+          overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
           image: 'blog-46.jpg'
         }]
     }
