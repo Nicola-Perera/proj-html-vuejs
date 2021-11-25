@@ -4,6 +4,7 @@
         <!-- general contacts -->
         <div class="header_top">
             <div class="contacts width80">
+                <h3>Everything about Lifestyle, Travel and Gadgets!</h3>
                 <div v-for="link in contacts" :key="link.name"><a href="#">{{ link.name }}</a></div>
             </div>
         </div>
