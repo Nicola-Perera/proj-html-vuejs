@@ -30,7 +30,15 @@ export default {
           title: 'How To Take Better Concert Pictures in 30 Seconds',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
           text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
-          image: 'blog-46.jpg'
+          image: 'blog-46.jpg',
+          status: {
+            hero: true,
+            popular: false,
+            recent: false,
+            featured: false,
+            extended: false,
+            endpage: false
+          }
         }]
     }
   }
