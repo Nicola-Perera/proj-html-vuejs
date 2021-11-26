@@ -34,6 +34,11 @@ export default {
       posts: [
         {
           id: '46',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
           genre: 'PHOTOGRAPY',
           title: 'How To Take Better Concert Pictures in 30 Seconds',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
@@ -50,6 +55,11 @@ export default {
         },
         {
           id: '47',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
           genre: 'GADGETS',
           title: 'Gadgets that Make You Smartphone Even Smarter',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
@@ -66,6 +76,11 @@ export default {
         },
         {
           id: '48',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
           genre: 'TRAVEL',
           title: '20 Top-Rated Tourist Attractions in Manhattan',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
@@ -82,6 +97,11 @@ export default {
         },
         {
           id: '49',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
           genre: 'LIFESTYLE',
           title: 'The Best Way to Ride a Motorcycle',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
@@ -98,6 +118,11 @@ export default {
         },
         {
           id: '50',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
           genre: 'TRAVEL',
           title: '5 Fun Things to Do at the Beach',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
@@ -114,6 +139,11 @@ export default {
         },
         {
           id: '51',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
           genre: 'RECIPES',
           title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
@@ -130,8 +160,13 @@ export default {
         },
         {
           id: '55',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
           genre: 'RECIPES',
-          title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
+          title: 'Simple Ways to Have a Pretty Face',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
           text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
           image: 'blog-55',
@@ -146,6 +181,11 @@ export default {
         },
         {
           id: '56',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
           genre: 'RECIPES',
           title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
@@ -162,6 +202,11 @@ export default {
         },
         {
           id: '57',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
           genre: 'RECIPES',
           title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
@@ -178,6 +223,11 @@ export default {
         },
         {
           id: '58',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
           genre: 'RECIPES',
           title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
@@ -194,6 +244,11 @@ export default {
         },
         {
           id: '59',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
           genre: 'RECIPES',
           title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
