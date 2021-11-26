@@ -9,7 +9,7 @@
         </div>
 
         <!-- post overview -->
-        <div class="post_overview width80">
+        <div class="post_overview width80 container">
 
             <!-- popular posts -->
             <div class="popular_posts">
@@ -77,15 +77,34 @@ export default {
 
 <style lang="scss">
 @import '../../assets/style/common.scss';
+#SiteMain {
 
-.hero_posts {
-    background-color: #f7f7f7;
-    padding: 2.5rem 0;
-    .width80.container {
-        flex-wrap: wrap;
-        justify-content: space-between;
-        #HeroPost {
-            width: calc(100% / 3.1);
+    // hero posts
+    .hero_posts {
+        background-color: #f7f7f7;
+        padding: 2.5rem 0;
+        .width80.container {
+            flex-wrap: wrap;
+            justify-content: space-between;
+            #HeroPost {
+                width: calc(100% / 3.1);
+            }
+        }
+    }
+
+    // mini posts
+    .post_overview {
+        .popular_posts .recent_posts .featured_posts {
+            width: calc(100% / 3);
+            // h2 {
+            //     font-size: .5rem;
+            // }
+        }
+        .popular_posts {
+            h2 {
+                font-size: .8rem;
+                margin-top: 2rem;
+            }
         }
     }
 }

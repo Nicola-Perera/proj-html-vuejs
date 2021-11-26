@@ -25,10 +25,23 @@ export default {
 @import '../../assets/style/common.scss';
 
 #MiniPost {
+  margin-top: .9rem;
+  padding-bottom: .4rem;
+  border-bottom: 1px solid #e2e2e2;
   .post_image {
     width: 3rem;
+    margin-right: 1rem;
     img {
       width: 100%;
+    }
+  }
+  .post_content {
+    font-size: .7rem;
+    h3 {
+      color: #888888;
+    }
+    h4 {
+      color: #b7b7b7;
     }
   }
 }
