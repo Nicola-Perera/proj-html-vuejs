@@ -21,7 +21,7 @@ export default {
   },
   data () {
     return {
-      nav: [{ name: 'Home' }, { name: 'Element' }, { name: 'Features' }, { name: 'Pages' }, { name: 'Portfolio' }, { name: 'Blog' }, { name: 'Shop' }],
+      nav: [{ name: 'HOME' }, { name: 'ELEMENT' }, { name: 'FEATURES' }, { name: 'PAGES' }, { name: 'PORTOFOLIO' }, { name: 'BLOG' }, { name: 'SHOP' }],
       contacts: [{ name: 'SIGN IN' }, { name: 'ABOUT US' }, { name: 'CONTACT US' }, { name: 'BUY NOW' }],
       posts: [
         {

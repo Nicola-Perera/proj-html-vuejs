@@ -16,8 +16,8 @@
 
         <!-- navbar -->
         <div class="header_bottom">
-            <div class="nav width80">
-                <div v-for="link in nav" :key="link.name"><a href="#">{{ link.name }}</a></div>
+            <div class="nav width80 container">
+                <div v-for="link in nav" :key="link.name"><a class="link" href="#">{{ link.name }}</a></div>
             </div>
         </div>
 
@@ -41,7 +41,7 @@ export default {
 #SiteHeader {
     .header_top {
         padding: 1rem 0;
-        font-size: .6rem;
+        font-size: .5rem;
         background-color: #0088cc;
         color: #fff;
         h3 {
@@ -63,6 +63,15 @@ export default {
 
 .header_bottom {
     border-top: 2px solid #ededed;
+    .nav {
+        padding: .8rem 0;
+        a {
+            margin-right: 2rem;
+            color: #444444;
+            font-weight: bold;
+            font-size: .8rem;
+        }
+    }
 }
 
 </style>
