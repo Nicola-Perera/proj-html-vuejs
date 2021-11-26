@@ -4,7 +4,7 @@
         <!-- hero posts -->
         <div class="hero_posts">
             <div class="width80">
-                <HeroPost />
+                <HeroPost v-for="post in posts" :post="post" :posts="posts" :key="post.id" v-show="post.status.hero"/>
             </div>
         </div>
 
@@ -61,22 +61,15 @@ import ExtendedPost from './ExtendedPost.vue'
 
 export default {
   name: 'SiteMain',
+  props: {
+    genres: [],
+    posts: [],
+    post: {}
+  },
   components: {
     HeroPost,
     MiniPost,
     ExtendedPost
-  },
-  data () {
-    return {
-      genres: [
-        { name: 'GADGETS' },
-        { name: 'PHOTOGRAPHY' },
-        { name: 'LIFESTYLE' },
-        { name: 'FASHION' },
-        { name: 'RECIPES' },
-        { name: 'TRAVEL' }
-      ]
-    }
   }
 }
 

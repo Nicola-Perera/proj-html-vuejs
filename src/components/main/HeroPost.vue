@@ -1,10 +1,15 @@
 <template>
-    <div id="HeroPost"></div>
+    <div id="HeroPost">
+      <h3>{{ post.id }}</h3>
+    </div>
 </template>
 
 <script>
 export default {
-  name: 'HeroPost'
+  name: 'HeroPost',
+  props: {
+    post: {}
+  }
 }
 </script>
 
