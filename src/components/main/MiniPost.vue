@@ -30,6 +30,7 @@ export default {
   border-bottom: 1px solid #e2e2e2;
   .post_image {
     width: 3rem;
+    min-height: 3.5rem;
     margin-right: 1rem;
     img {
       width: 100%;

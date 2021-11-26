@@ -94,13 +94,20 @@ export default {
 
     // mini posts
     .post_overview {
+        justify-content: space-between;
         .popular_posts .recent_posts .featured_posts {
-            width: calc(100% / 3);
+            width: calc(100% / 3.1);
             // h2 {
             //     font-size: .5rem;
             // }
         }
         .popular_posts {
+            h2 {
+                font-size: .8rem;
+                margin-top: 2rem;
+            }
+        }
+        .recent_posts {
             h2 {
                 font-size: .8rem;
                 margin-top: 2rem;

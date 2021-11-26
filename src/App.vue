@@ -273,6 +273,116 @@ export default {
             extended: false,
             endpage: false
           }
+        },
+        {
+          id: '65',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
+          author: 'John Doe',
+          genre: 'RECIPES',
+          title: 'Simple Ways to Have a Pretty Face',
+          overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+          text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
+          image: 'blog-65',
+          status: {
+            hero: false,
+            popular: false,
+            recent: true,
+            featured: false,
+            extended: false,
+            endpage: false
+          }
+        },
+        {
+          id: '66',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
+          author: 'John Doe',
+          genre: 'RECIPES',
+          title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
+          overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+          text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
+          image: 'blog-66',
+          status: {
+            hero: false,
+            popular: false,
+            recent: true,
+            featured: false,
+            extended: false,
+            endpage: false
+          }
+        },
+        {
+          id: '67',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
+          author: 'John Doe',
+          genre: 'RECIPES',
+          title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
+          overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+          text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
+          image: 'blog-67',
+          status: {
+            hero: false,
+            popular: false,
+            recent: true,
+            featured: false,
+            extended: false,
+            endpage: false
+          }
+        },
+        {
+          id: '68',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
+          author: 'John Doe',
+          genre: 'RECIPES',
+          title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
+          overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+          text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
+          image: 'blog-68',
+          status: {
+            hero: false,
+            popular: false,
+            recent: true,
+            featured: false,
+            extended: false,
+            endpage: false
+          }
+        },
+        {
+          id: '69',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
+          author: 'John Doe',
+          genre: 'RECIPES',
+          title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
+          overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+          text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
+          image: 'blog-69',
+          status: {
+            hero: false,
+            popular: false,
+            recent: true,
+            featured: false,
+            extended: false,
+            endpage: false
+          }
         }
       ]
     }
