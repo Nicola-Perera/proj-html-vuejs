@@ -3,7 +3,7 @@
 
         <!-- hero posts -->
         <div class="hero_posts">
-            <div class="width80">
+            <div class="width80 container">
                 <HeroPost v-for="post in posts" :post="post" :posts="posts" :key="post.id" v-show="post.status.hero"/>
             </div>
         </div>
@@ -77,5 +77,17 @@ export default {
 
 <style lang="scss">
 @import '../../assets/style/common.scss';
+
+.hero_posts {
+    background-color: #f7f7f7;
+    padding: 2.5rem 0;
+    .width80.container {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        #HeroPost {
+            width: calc(100% / 3.1);
+        }
+    }
+}
 
 </style>

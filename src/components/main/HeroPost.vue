@@ -1,6 +1,12 @@
 <template>
     <div id="HeroPost">
-      <h3>{{ post.id }}</h3>
+      <div class="hero_image">
+        <img :src="require('../../assets/img/source_images/' + post.image + '.jpg')" alt="">
+        <div class="hero_content">
+            <h3>{{ post.genre }}</h3>
+          <p>{{ post.title }}</p>
+        </div>
+      </div>
     </div>
 </template>
 
@@ -15,5 +21,23 @@ export default {
 
 <style lang="scss">
 @import '../../assets/style/common.scss';
+
+#HeroPost {
+  // color: #fff;
+  .hero_image {
+    position: relative;
+    img {
+      width: 100%;
+    }
+    .hero_content {
+      // position: absolute;
+        h3 {
+          padding: .5rem 1rem;
+          display: inline-block;
+          background-color: #0088cc;
+        }
+    }
+  }
+}
 
 </style>
