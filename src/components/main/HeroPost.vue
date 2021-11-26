@@ -3,7 +3,7 @@
       <div class="hero_image">
         <img :src="require('../../assets/img/source_images/' + post.image + '.jpg')" alt="">
         <div class="hero_content">
-            <h3>{{ post.genre }}</h3>
+            <h3 class="genre">{{ post.genre }}</h3>
           <p>{{ post.title }}</p>
         </div>
       </div>
