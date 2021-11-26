@@ -3,9 +3,9 @@
 
         <!-- general contacts -->
         <div class="header_top">
-            <div class="contacts width80">
+            <div class="contacts width80 container">
                 <h3>Everything about Lifestyle, Travel and Gadgets!</h3>
-                <div v-for="link in contacts" :key="link.name"><a href="#">{{ link.name }}</a></div>
+                <div v-for="link in contacts" :key="link.name"><a class="link" href="#">{{ link.name }}</a></div>
             </div>
         </div>
 
@@ -27,21 +27,39 @@
 <script>
 export default {
   name: 'SiteHeader',
-  components: {
-
-  },
   props: {
-    nav: Array,
-    contacts: Array
+    nav: [],
+    contacts: []
   }
 }
 
 </script>
 
-<style>
-img {
-    width: 5rem;
+<style lang="scss">
+@import '../../assets/style/common.scss';
+
+#SiteHeader {
+    .header_top {
+        padding: 1rem 0;
+        font-size: .6rem;
+        background-color: #0088cc;
+        color: #fff;
+        h3 {
+            font-weight: 200;
+        }
+        a {
+            margin-left: 1rem;
+            font-weight: bold;
+            color: #fff;
+        }
     }
+    #header_logo {
+        padding: 2rem 0;
+        img {
+            width: 5rem;
+            }
+    }
+}
 
 .header_bottom {
     border-top: 2px solid #ededed;
