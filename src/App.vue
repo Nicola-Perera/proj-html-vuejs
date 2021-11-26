@@ -49,12 +49,12 @@ export default {
           }
         },
         {
-          id: '45',
-          genre: 'PHOTOGRAPY',
-          title: 'How To Take Better Concert Pictures in 30 Seconds',
+          id: '47',
+          genre: 'GADGETS',
+          title: 'Gadgets that Make You Smartphone Even Smarter',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
           text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
-          image: 'blog-46.jpg',
+          image: 'blog-47.jpg',
           status: {
             hero: true,
             popular: false,
@@ -65,12 +65,12 @@ export default {
           }
         },
         {
-          id: '44',
-          genre: 'PHOTOGRAPY',
-          title: 'How To Take Better Concert Pictures in 30 Seconds',
+          id: '48',
+          genre: 'TRAVEL',
+          title: '20 Top-Rated Tourist Attractions in Manhattan',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
           text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
-          image: 'blog-46.jpg',
+          image: 'blog-48.jpg',
           status: {
             hero: true,
             popular: false,
@@ -81,12 +81,12 @@ export default {
           }
         },
         {
-          id: '43',
-          genre: 'PHOTOGRAPY',
-          title: 'How To Take Better Concert Pictures in 30 Seconds',
+          id: '49',
+          genre: 'LIFESTYLE',
+          title: 'The Best Way to Ride a Motorcycle',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
           text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
-          image: 'blog-46.jpg',
+          image: 'blog-49.jpg',
           status: {
             hero: true,
             popular: false,
@@ -97,12 +97,12 @@ export default {
           }
         },
         {
-          id: '42',
-          genre: 'PHOTOGRAPY',
-          title: 'How To Take Better Concert Pictures in 30 Seconds',
+          id: '50',
+          genre: 'TRAVEL',
+          title: '5 Fun Things to Do at the Beach',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
           text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
-          image: 'blog-46.jpg',
+          image: 'blog-50.jpg',
           status: {
             hero: true,
             popular: false,
@@ -113,12 +113,12 @@ export default {
           }
         },
         {
-          id: '41',
-          genre: 'PHOTOGRAPY',
-          title: 'How To Take Better Concert Pictures in 30 Seconds',
+          id: '51',
+          genre: 'RECIPES',
+          title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
           text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
-          image: 'blog-46.jpg',
+          image: 'blog-52.jpg',
           status: {
             hero: true,
             popular: false,
