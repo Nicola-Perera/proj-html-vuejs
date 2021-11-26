@@ -25,12 +25,10 @@ export default {
 #HeroPost {
   // color: #fff;
   .hero_image {
-    position: relative;
     img {
       width: 100%;
     }
     .hero_content {
-      // position: absolute;
         h3 {
           padding: .5rem 1rem;
           display: inline-block;

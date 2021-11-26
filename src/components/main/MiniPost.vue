@@ -1,10 +1,15 @@
 <template>
-    <div id="MiniPost"></div>
+    <div id="MiniPost">
+      <h3>{{ post.genre }}</h3>
+    </div>
 </template>
 
 <script>
 export default {
-  name: 'MiniPost'
+  name: 'MiniPost',
+  props: {
+    post: {}
+  }
 }
 </script>
 

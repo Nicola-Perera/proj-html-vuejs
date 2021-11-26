@@ -14,13 +14,13 @@
             <!-- popular posts -->
             <div class="popular_posts">
                 <h2>POPULAR POSTS</h2>
-                <MiniPost />
+                <MiniPost v-for="post in posts" :post="post" :posts="posts" :key="post.id" v-show="post.status.popular"/>
             </div>
 
             <!-- recent posts -->
             <div class="recent_posts">
                 <h2>RECENT POSTS</h2>
-                <MiniPost />
+                <MiniPost v-for="post in posts" :post="post" :posts="posts" :key="post.id" v-show="post.status.recent"/>
             </div>
 
             <!-- featured posts -->
