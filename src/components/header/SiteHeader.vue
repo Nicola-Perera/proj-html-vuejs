@@ -30,11 +30,9 @@ export default {
   components: {
 
   },
-  data () {
-    return {
-      nav: [{ name: 'Home' }, { name: 'Element' }, { name: 'Features' }, { name: 'Pages' }, { name: 'Portfolio' }, { name: 'Blog' }, { name: 'Shop' }],
-      contacts: [{ name: 'SIGN IN' }, { name: 'ABOUT US' }, { name: 'CONTACT US' }, { name: 'BUY NOW' }]
-    }
+  props: {
+    nav: Array,
+    contacts: Array
   }
 }
 

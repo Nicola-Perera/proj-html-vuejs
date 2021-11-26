@@ -2,7 +2,7 @@
     <div id="SiteMain">
 
         <!-- hero posts -->
-        <div class="hero_posts width80">
+        <div class="hero_posts">
             <div class="width80">
                 <HeroPost />
             </div>
@@ -32,8 +32,10 @@
 
         <!-- genres -->
         <div class="genres">
-            <div v-for="genre in genres" class="genre" :class="genre.name" :key="genre.name">
-                <button :name="genre.name"> {{ genre.name }} </button>
+            <div class="width80">
+                <div v-for="genre in genres" class="genre" :class="genre.name" :key="genre.name">
+                    <button :name="genre.name"> {{ genre.name }} </button>
+                </div>
             </div>
         </div>
 
