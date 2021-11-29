@@ -24,7 +24,7 @@
         <!-- all categories -->
         <div class="categories">
           <h3>CATEGORIES</h3>
-          <div class="all_categories">
+          <div class="all_categories container">
             <!-- genres -->
             <div v-for="genre in genres" class="genre categories" :class="genre.name" :key="genre.name">
               <h2> {{ genre.name.toUpperCase() }} </h2>
@@ -105,6 +105,19 @@ export default {
   // categories
   .all_categories {
     color: white;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    .categories {
+      background-color: black;
+      font-size: .4rem;
+      padding: .3rem;
+      margin-right: .4rem;
+      margin-bottom: .2rem;
+      border-radius: .2rem;
+      h2 {
+        width: 100%;
+      }
+    }
   }
 }
 
