@@ -1,7 +1,7 @@
 <template>
     <div class="HeroPost">
       <div class="hero_image">
-        <img :src="require('../../assets/img/source_images/' + post.image + '.jpg')" alt="">
+        <img :src="require('../../assets/img/source_images/' + post.image + '.jpg')" alt="post image">
         <div class="hero_content">
             <h3 class="genre">{{ post.genre }}</h3>
             <p>{{ post.title }}</p>

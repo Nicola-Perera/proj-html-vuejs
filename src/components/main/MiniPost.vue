@@ -2,7 +2,7 @@
     <div class="MiniPost">
       <div class="container">
         <div class="post_image">
-          <img :src="require('../../assets/img/source_images/' + post.image + '.jpg')" alt="">
+          <img :src="require('../../assets/img/source_images/' + post.image + '.jpg')" alt="post image">
         </div>
         <div class="post_content">
           <h3>{{ post.title }}</h3>

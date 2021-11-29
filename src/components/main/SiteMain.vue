@@ -46,7 +46,7 @@
 
             <!-- width open posts -->
             <div class="extended_posts">
-                <ExtendedPost />
+                <ExtendedPost v-for="post in posts" :post="post" :posts="posts" :key="post.id" v-show="post.status.extended"/>/>
             </div>
 
             <!-- posts from social -->

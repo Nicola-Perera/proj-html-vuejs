@@ -248,7 +248,7 @@ export default {
             popular: true,
             recent: false,
             featured: false,
-            extended: false,
+            extended: true,
             endpage: false
           }
         },
