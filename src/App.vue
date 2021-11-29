@@ -183,7 +183,32 @@ export default {
           }
         },
         {
-          id: '55',
+          id: '54',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
+          genre: 'Recipes',
+          title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
+          overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+          text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
+          image: 'blog-54',
+          status: {
+            hero: false,
+            popular: false,
+            recent: false,
+            featured: false,
+            extended: true,
+            endpage: false
+          }
+        },
+        {
+          id: '55.1',
           date: {
             day: '12',
             month: 'January',
@@ -197,13 +222,13 @@ export default {
           title: 'Simple Ways to Have a Pretty Face',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
           text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
-          image: 'blog-55',
+          image: 'blog-55 (1)',
           status: {
             hero: false,
             popular: true,
             recent: false,
             featured: false,
-            extended: false,
+            extended: true,
             endpage: false
           }
         },
@@ -229,6 +254,31 @@ export default {
             recent: false,
             featured: false,
             extended: false,
+            endpage: false
+          }
+        },
+        {
+          id: '56.1',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
+          genre: 'Recipes',
+          title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
+          overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+          text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
+          image: 'blog-56 (1)',
+          status: {
+            hero: false,
+            popular: true,
+            recent: false,
+            featured: false,
+            extended: true,
             endpage: false
           }
         },
@@ -272,7 +322,7 @@ export default {
           title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
           text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
-          image: 'blog-58',
+          image: 'blog-58 (1)',
           status: {
             hero: false,
             popular: true,
