@@ -26,6 +26,7 @@
             <!-- featured posts -->
             <div class="featured_posts">
                 <h2>FEATURED POSTS</h2>
+                <FeaturedPost v-for="post in posts" :post="post" :posts="posts" :key="post.id" v-show="post.status.featured"/>
             </div>
 
         </div>
@@ -59,6 +60,7 @@
 <script>
 import HeroPost from './HeroPost.vue'
 import MiniPost from './MiniPost.vue'
+import FeaturedPost from './FeaturedPost.vue'
 import ExtendedPost from './ExtendedPost.vue'
 
 export default {
@@ -71,6 +73,7 @@ export default {
   components: {
     HeroPost,
     MiniPost,
+    FeaturedPost,
     ExtendedPost
   }
 }
@@ -115,9 +118,15 @@ export default {
                 margin-top: 2rem;
             }
         }
+        .featured_posts {
+            h2 {
+                font-size: .8rem;
+                margin-top: 2rem;
+            }
+        }
     }
 
-    // lista generi
+    // genres array
     .genres {
         background-color: var(--theme-green);
         .width80.container {

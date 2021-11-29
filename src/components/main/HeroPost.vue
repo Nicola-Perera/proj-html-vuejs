@@ -23,7 +23,6 @@ export default {
 @import '../../assets/style/common.scss';
 
 .HeroPost {
-  // color: #fff;
   .hero_image {
     position: relative;
     color: white;

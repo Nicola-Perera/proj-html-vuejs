@@ -78,8 +78,7 @@ export default {
   props: {
     genres: [],
     categories: [],
-    posts: [],
-    post: {}
+    posts: []
   },
   components: {
     MiniPost

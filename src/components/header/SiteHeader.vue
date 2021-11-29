@@ -11,7 +11,7 @@
 
         <!-- logo -->
         <div id="header_logo" class="width80">
-            <img src="../../assets/img/source_images/logo-default-slim.png" alt="">
+            <img src="../../assets/img/source_images/logo-default-slim.png" alt="page logo blue">
         </div>
 
         <!-- navbar -->
