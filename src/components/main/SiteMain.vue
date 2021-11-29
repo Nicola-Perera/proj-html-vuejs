@@ -32,10 +32,12 @@
 
         <!-- genres -->
         <div class="genres">
-            <div class="width80">
+            <div class="width80 container">
+                <div class="arrow left"><span>sinistra</span></div>
                 <div v-for="genre in genres" class="genre" :class="genre.name" :key="genre.name">
                     <button :name="genre.name"> {{ genre.name }} </button>
                 </div>
+                <div class="arrow rigth"><span>destra</span></div>
             </div>
         </div>
 
@@ -95,11 +97,11 @@ export default {
     // mini posts
     .post_overview {
         justify-content: space-between;
-        .popular_posts .recent_posts .featured_posts {
+        .popular_posts, .recent_posts, .featured_posts {
             width: calc(100% / 3.1);
-            // h2 {
-            //     font-size: .5rem;
-            // }
+        //  h2 {
+        //         font-size: .5rem;
+        //     }
         }
         .popular_posts {
             h2 {
@@ -112,6 +114,18 @@ export default {
                 font-size: .8rem;
                 margin-top: 2rem;
             }
+        }
+    }
+
+    // lista generi
+    .genres {
+        background-color: #0088cc;
+        .width80.container {
+            justify-content: space-between;
+            align-items: center;
+        }
+        .genre {
+            padding: 2rem 0;
         }
     }
 }
