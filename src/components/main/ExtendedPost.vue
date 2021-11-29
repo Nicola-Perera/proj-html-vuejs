@@ -3,7 +3,7 @@
 
       <!-- image -->
       <div class="post_image">
-        <img :src="require('../../assets/img/source_images/' + post.image + '.jpg')" alt="post image">
+        <img v-for="image in post.image" :key="image.name" :src="require('../../assets/img/source_images/' + image.name + '.jpg')" alt="post image">
       </div>
 
       <!-- content -->
