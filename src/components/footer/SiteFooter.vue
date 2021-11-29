@@ -1,12 +1,14 @@
 <template>
-    <div id="SiteFooter"></div>
+    <div class="SiteFooter"></div>
 </template>
 
 <script>
 export default {
   name: 'SiteFooter',
-  components: {
-
+  props: {
+    genres: [],
+    posts: [],
+    post: {}
   }
 }
 
