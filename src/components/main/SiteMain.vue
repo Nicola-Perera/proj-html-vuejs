@@ -51,7 +51,15 @@
             </div>
 
             <!-- posts from social -->
-            <div class="social_posts"></div>
+            <div class="social_posts">
+
+                <!-- twitter -->
+                <div class="twitter"></div>
+                <!-- <h2>LATEST POSTS FROM TWITTER</h2> -->
+                <div>
+                    <!-- <SocialPost v-for="post in posts" :post="post" :posts="posts" :key="post.id" v-show="post.status.extended"/> -->
+                </div>
+            </div>
 
         </div>
     </div>
@@ -61,6 +69,7 @@
 import HeroPost from './HeroPost.vue'
 import MiniPost from './MiniPost.vue'
 import FeaturedPost from './FeaturedPost.vue'
+// import SocialPost from './SocialPost.vue'
 import ExtendedPost from './ExtendedPost.vue'
 
 export default {
@@ -74,6 +83,7 @@ export default {
     HeroPost,
     MiniPost,
     FeaturedPost,
+    // SocialPost,
     ExtendedPost
   }
 }
@@ -155,6 +165,12 @@ export default {
                     width: 100%;
                 }
             }
+        }
+    }
+    // social posts
+    .social_posts {
+        h2 {
+            font-size: .7rem;
         }
     }
 }

@@ -192,60 +192,8 @@ export default {
             endpage: false
           }
         },
-        {
-          id: '54',
-          date: {
-            day: '12',
-            month: 'January',
-            year: '2019'
-          },
-          author: {
-            name: 'John Doe',
-            image: 'avatar'
-          },
-          genre: 'Recipes',
-          title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
-          overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-          text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
-          image: [
-            { name: 'blog-54' }
-          ],
-          status: {
-            hero: false,
-            popular: false,
-            recent: false,
-            featured: false,
-            extended: true,
-            endpage: false
-          }
-        },
-        {
-          id: '55.1',
-          date: {
-            day: '12',
-            month: 'January',
-            year: '2019'
-          },
-          author: {
-            name: 'John Doe',
-            image: 'avatar'
-          },
-          genre: 'RECIPES',
-          title: 'Simple Ways to Have a Pretty Face',
-          overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-          text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
-          image: [
-            { name: 'blog-55 (1)' }
-          ],
-          status: {
-            hero: false,
-            popular: true,
-            recent: false,
-            featured: false,
-            extended: true,
-            endpage: false
-          }
-        },
+
+        // popular posts
         {
           id: '55',
           date: {
@@ -293,33 +241,6 @@ export default {
             recent: false,
             featured: false,
             extended: false,
-            endpage: false
-          }
-        },
-        {
-          id: '56.1',
-          date: {
-            day: '12',
-            month: 'January',
-            year: '2019'
-          },
-          author: {
-            name: 'John Doe',
-            image: 'avatar'
-          },
-          genre: 'Recipes',
-          title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
-          overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-          text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
-          image: [
-            { name: 'blog-56 (1)' }
-          ],
-          status: {
-            hero: false,
-            popular: false,
-            recent: false,
-            featured: false,
-            extended: true,
             endpage: false
           }
         },
@@ -374,33 +295,6 @@ export default {
           }
         },
         {
-          id: '58.1',
-          date: {
-            day: '12',
-            month: 'January',
-            year: '2019'
-          },
-          author: {
-            name: 'John Doe',
-            image: 'avatar'
-          },
-          genre: 'Recipes',
-          title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
-          overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-          text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
-          image: [
-            { name: 'blog-58 (1)' }
-          ],
-          status: {
-            hero: false,
-            popular: true,
-            recent: false,
-            featured: false,
-            extended: true,
-            endpage: false
-          }
-        },
-        {
           id: '59',
           date: {
             day: '12',
@@ -425,6 +319,8 @@ export default {
             endpage: false
           }
         },
+
+        // main recent posts
         {
           id: '65',
           date: {
@@ -551,7 +447,7 @@ export default {
           }
         },
 
-        // featured post
+        // featured posts
         {
           id: '66.1',
           date: {
@@ -578,6 +474,370 @@ export default {
             endpage: false
           }
         },
+
+        // social posts
+        // twitter
+        {
+          id: '1.2.3',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
+          genre: 'Recipes',
+          title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
+          overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+          text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
+          image: [
+            { name: '' }
+          ],
+          status: {
+            hero: false,
+            popular: false,
+            recent: false,
+            featured: false,
+            extended: true,
+            endpage: false
+          },
+          social: {
+            twitter: true,
+            instagram: false
+          }
+        },
+        {
+          id: '3.2.1',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
+          genre: 'Recipes',
+          title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
+          overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+          text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
+          image: [
+            { name: '' }
+          ],
+          status: {
+            hero: false,
+            popular: false,
+            recent: false,
+            featured: false,
+            extended: true,
+            endpage: false
+          },
+          social: {
+            twitter: true,
+            instagram: false
+          }
+        },
+
+        // instagram
+        {
+          id: '1',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
+          genre: 'Recipes',
+          title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
+          overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+          text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
+          image: [
+            { name: '' }
+          ],
+          status: {
+            hero: false,
+            popular: false,
+            recent: false,
+            featured: false,
+            extended: true,
+            endpage: false
+          },
+          social: {
+            twitter: false,
+            instagram: true
+          }
+        },
+        {
+          id: '2',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
+          genre: 'Recipes',
+          title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
+          overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+          text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
+          image: [
+            { name: '' }
+          ],
+          status: {
+            hero: false,
+            popular: false,
+            recent: false,
+            featured: false,
+            extended: true,
+            endpage: false
+          },
+          social: {
+            twitter: false,
+            instagram: true
+          }
+        },
+        {
+          id: '3',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
+          genre: 'Recipes',
+          title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
+          overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+          text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
+          image: [
+            { name: '' }
+          ],
+          status: {
+            hero: false,
+            popular: false,
+            recent: false,
+            featured: false,
+            extended: true,
+            endpage: false
+          },
+          social: {
+            twitter: false,
+            instagram: true
+          }
+        },
+        {
+          id: '4',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
+          genre: 'Recipes',
+          title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
+          overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+          text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
+          image: [
+            { name: '' }
+          ],
+          status: {
+            hero: false,
+            popular: false,
+            recent: false,
+            featured: false,
+            extended: true,
+            endpage: false
+          },
+          social: {
+            twitter: false,
+            instagram: true
+          }
+        },
+        {
+          id: '5',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
+          genre: 'Recipes',
+          title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
+          overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+          text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
+          image: [
+            { name: '' }
+          ],
+          status: {
+            hero: false,
+            popular: false,
+            recent: false,
+            featured: false,
+            extended: true,
+            endpage: false
+          },
+          social: {
+            twitter: false,
+            instagram: true
+          }
+        },
+        {
+          id: '6',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
+          genre: 'Recipes',
+          title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
+          overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+          text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
+          image: [
+            { name: '' }
+          ],
+          status: {
+            hero: false,
+            popular: false,
+            recent: false,
+            featured: false,
+            extended: true,
+            endpage: false
+          },
+          social: {
+            twitter: false,
+            instagram: true
+          }
+        },
+        // extended posts
+        {
+          id: '54',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
+          genre: 'Recipes',
+          title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
+          overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+          text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
+          image: [
+            { name: 'blog-54' }
+          ],
+          status: {
+            hero: false,
+            popular: false,
+            recent: false,
+            featured: false,
+            extended: true,
+            endpage: false
+          }
+        },
+        {
+          id: '55.1',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
+          genre: 'RECIPES',
+          title: 'Simple Ways to Have a Pretty Face',
+          overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+          text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
+          image: [
+            { name: 'blog-55 (1)' }
+          ],
+          status: {
+            hero: false,
+            popular: true,
+            recent: false,
+            featured: false,
+            extended: true,
+            endpage: false
+          }
+        },
+        {
+          id: '56.1',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
+          genre: 'Recipes',
+          title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
+          overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+          text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
+          image: [
+            { name: 'blog-56 (1)' }
+          ],
+          status: {
+            hero: false,
+            popular: false,
+            recent: false,
+            featured: false,
+            extended: true,
+            endpage: false
+          }
+        },
+        {
+          id: '58.1',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
+          genre: 'Recipes',
+          title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
+          overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+          text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
+          image: [
+            { name: 'blog-58 (1)' }
+          ],
+          status: {
+            hero: false,
+            popular: true,
+            recent: false,
+            featured: false,
+            extended: true,
+            endpage: false
+          }
+        },
+
+        // top posts
         {
           id: '13.16.20.23.29.40',
           date: {
@@ -611,6 +871,8 @@ export default {
             top10: true
           }
         },
+
+        // footer posts
         {
           id: '04',
           date: {
