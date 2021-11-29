@@ -39,7 +39,7 @@ export default {
         h3 {
           padding: .2rem .5rem;
           display: inline-block;
-          background-color: #0088cc;
+          background-color: var(--theme-green);
           font-size: .5rem;
         }
         p {

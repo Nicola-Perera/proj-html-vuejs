@@ -119,7 +119,7 @@ export default {
 
     // lista generi
     .genres {
-        background-color: #0088cc;
+        background-color: var(--theme-green);
         .width80.container {
             justify-content: space-between;
             align-items: center;

@@ -5,6 +5,7 @@
     padding: 0;
 }
 
+// common container size
 .width80 {
     width: 80%;
     margin: auto;
@@ -14,6 +15,13 @@
     display: flex;
 }
 
+// general links
 .link {
     text-decoration: none;
 }
+
+// main color palette
+:root {
+    --theme-blue: #0088cc;
+    --theme-green: #33b77b;
+  }

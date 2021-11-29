@@ -42,7 +42,7 @@ export default {
     .header_top {
         padding: 1rem 0;
         font-size: .5rem;
-        background-color: #0088cc;
+        background-color: var(--theme-green);
         color: #fff;
         h3 {
             font-weight: 200;
