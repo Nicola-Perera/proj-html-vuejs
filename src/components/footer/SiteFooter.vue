@@ -18,7 +18,7 @@
 
         <!-- most recent comments -->
         <div class="most_recent_comments">
-          <h3>RECENT Comments</h3>
+          <h3>RECENT COMMENTS</h3>
         </div>
 
         <!-- categories -->

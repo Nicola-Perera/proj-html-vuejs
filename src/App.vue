@@ -31,6 +31,15 @@ export default {
         { name: 'Recipes' },
         { name: 'Travel' }
       ],
+      categories: [
+        { name: 'Business' },
+        { name: 'Architecture' },
+        { name: 'Reviews' },
+        { name: 'Sports' },
+        { name: 'Videos' },
+        { name: 'Technology' },
+        { name: 'Design' }
+      ],
       posts: [
         {
           id: '46',
