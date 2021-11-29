@@ -33,11 +33,11 @@
         <!-- genres -->
         <div class="genres">
             <div class="width80 container">
-                <div class="arrow left"><span>sinistra</span></div>
+                <div class="arrow left"><span>&lArr;</span></div>
                 <div v-for="genre in genres" class="genre" :class="genre.name" :key="genre.name">
-                    <button :name="genre.name"> {{ genre.name }} </button>
+                    <h2> {{ genre.name }} </h2>
                 </div>
-                <div class="arrow rigth"><span>destra</span></div>
+                <div class="arrow rigth"><span>&rArr;</span></div>
             </div>
         </div>
 
@@ -126,6 +126,12 @@ export default {
         }
         .genre {
             padding: 2rem 0;
+            h2 {
+                color: white;
+                background-color: #212529;
+                padding: 1rem 3rem;
+                font-size: .6rem;
+            }
         }
     }
 }
