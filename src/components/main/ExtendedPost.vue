@@ -5,7 +5,10 @@
 <script>
 
 export default {
-  name: 'ExtendedPost'
+  name: 'ExtendedPost',
+  props: {
+    post: {}
+  }
 }
 </script>
 
