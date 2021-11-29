@@ -16,8 +16,12 @@
           <h2 class="post_title">{{ post.title }}</h2>
           <p class="post_text">{{ post.text }}</p>
           <div class="info container">
-            <div class="engage"></div>
-            <div class="read_more"></div>
+            <div class="engage">
+              <p>By <span>{{ post.author }}</span> <span>{{ post.genre }}</span> <span>12 Comments</span></p>
+            </div>
+            <div class="read_more">
+              <button>READ MORE</button>
+            </div>
           </div>
         </div>
       </div>
@@ -46,9 +50,12 @@ export default {
   }
   .post_content {
     margin: 2rem 0;
+    justify-content: space-between;
+
     .post_date {
       font-size: .8rem;
       text-align: center;
+      width: 5%;
       .day {
         background-color: #f7f7f7;
         padding: 1rem;
@@ -57,6 +64,33 @@ export default {
         background-color: #212529;
         color: white;
         padding: .3rem .5rem;
+      }
+    }
+    .text {
+      width: 93%;
+      padding-bottom: 1rem;
+      border-bottom: 2px solid grey;
+      padding: 0 .5rem;
+      p {
+        margin: 1rem 0;
+        color: #888888;
+      }
+      .info {
+        justify-content: space-between;
+         .engage {
+          p {
+            span {
+              margin-right: .5rem;
+            }
+          }
+        }
+        button {
+          color: #888888;
+          background-color: transparent;
+          border: 2p solid #888888;
+          border-radius: .2rem;
+          padding: .3rem;
+        }
       }
     }
   }
