@@ -1,5 +1,5 @@
 <template>
-    <div id="HeroPost">
+    <div class="HeroPost">
       <div class="hero_image">
         <img :src="require('../../assets/img/source_images/' + post.image + '.jpg')" alt="">
         <div class="hero_content">
@@ -22,7 +22,7 @@ export default {
 <style lang="scss">
 @import '../../assets/style/common.scss';
 
-#HeroPost {
+.HeroPost {
   // color: #fff;
   .hero_image {
     position: relative;

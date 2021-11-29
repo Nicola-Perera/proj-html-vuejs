@@ -1,5 +1,5 @@
 <template>
-    <div id="MiniPost">
+    <div class="MiniPost">
       <div class="container">
         <div class="post_image">
           <img :src="require('../../assets/img/source_images/' + post.image + '.jpg')" alt="">
@@ -24,7 +24,7 @@ export default {
 <style lang="scss">
 @import '../../assets/style/common.scss';
 
-#MiniPost {
+.MiniPost {
   margin-top: .9rem;
   padding-bottom: .4rem;
   border-bottom: 1px solid #e2e2e2;

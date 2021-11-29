@@ -1,5 +1,5 @@
 <template>
-    <div id="SiteMain">
+    <div class="SiteMain">
 
         <!-- hero posts -->
         <div class="hero_posts">
@@ -79,7 +79,7 @@ export default {
 
 <style lang="scss">
 @import '../../assets/style/common.scss';
-#SiteMain {
+.SiteMain {
 
     // hero posts
     .hero_posts {
@@ -88,7 +88,7 @@ export default {
         .width80.container {
             flex-wrap: wrap;
             justify-content: space-between;
-            #HeroPost {
+            .HeroPost {
                 width: calc(100% / 3.1);
             }
         }
