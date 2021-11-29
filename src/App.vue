@@ -33,38 +33,6 @@ export default {
       ],
       posts: [
         {
-          id: '13.16.20.23.29.40',
-          date: {
-            day: '12',
-            month: 'January',
-            year: '2019'
-          },
-          author: {
-            name: 'John Doe',
-            image: 'avatar'
-          },
-          genre: 'Recipes',
-          title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
-          overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-          text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
-          image: [
-            { name: 'blog-13' },
-            { name: 'blog-16' },
-            { name: 'blog-20' },
-            { name: 'blog-23' },
-            { name: 'blog-29' },
-            { name: 'blog-40' }
-          ],
-          status: {
-            hero: false,
-            popular: true,
-            recent: false,
-            featured: false,
-            extended: true,
-            endpage: false
-          }
-        },
-        {
           id: '46',
           date: {
             day: '12',
@@ -520,6 +488,39 @@ export default {
             featured: false,
             extended: false,
             endpage: false
+          }
+        },
+        {
+          id: '13.16.20.23.29.40',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
+          genre: 'Recipes',
+          title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
+          overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+          text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
+          image: [
+            { name: 'blog-13' },
+            { name: 'blog-16' },
+            { name: 'blog-20' },
+            { name: 'blog-23' },
+            { name: 'blog-29' },
+            { name: 'blog-40' }
+          ],
+          status: {
+            hero: false,
+            popular: true,
+            recent: false,
+            featured: false,
+            extended: true,
+            endpage: false,
+            top10: true
           }
         }
       ]

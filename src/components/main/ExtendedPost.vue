@@ -2,9 +2,9 @@
     <div class="ExtendedPost">
 
       <!-- image -->
-      <div class="post_image">
-        <img v-for="image in post.image" :key="image.name" :src="require('../../assets/img/source_images/' + image.name + '.jpg')" alt="post image">
-      </div>
+        <div class="post_image">
+            <img :src="require('../../assets/img/source_images/' + image.name + '.jpg')" alt="post image" v-for="image in post.image" :key="image.name" class="element">
+        </div>
 
       <!-- content -->
       <div class="post_content container">
@@ -41,7 +41,7 @@ export default {
 <style lang="scss">
 @import '../../assets/style/common.scss';
 
-.ExtendedPost {
+.ExtendedPost, .last {
   margin: 3rem 0;
   .post_image {
     width: 100%;

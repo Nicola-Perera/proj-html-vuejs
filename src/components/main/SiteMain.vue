@@ -46,7 +46,7 @@
 
             <!-- width open posts -->
             <div class="extended_posts">
-                <ExtendedPost v-for="post in posts" :post="post" :posts="posts" :key="post.id" v-show="post.status.extended"/>/>
+                <ExtendedPost v-for="post in posts" :post="post" :posts="posts" :key="post.id" v-show="post.status.extended" :class="{last: post.status.top10}"/>
             </div>
 
             <!-- posts from social -->
@@ -131,6 +131,20 @@ export default {
                 background-color: #212529;
                 padding: 1rem 3rem;
                 font-size: .6rem;
+            }
+        }
+    }
+
+    // extended post
+    .last {
+        .post_image {
+            display: flex;
+            flex-wrap: wrap;
+            .element {
+                width: calc(100% / 3);
+                img {
+                    width: 100%;
+                }
             }
         }
     }
