@@ -19,6 +19,10 @@
         <!-- most recent comments -->
         <div class="most_recent_comments">
           <h3>RECENT COMMENTS</h3>
+          <div class="comment" v-for="post in posts" :post="post" :posts="posts" :key="post.id" v-show="post.status.endpage">
+            <h3><span class="author">{{ post.author.name }}</span> commented on <span class="post">lorem ipsum dolor sit amet.</span></h3>
+            <h4><span>{{ post.date.month }}</span> <span>{{ post.date.day }}</span>, <span>{{ post.date.year }}</span></h4>
+          </div>
         </div>
 
         <!-- all categories -->
@@ -99,6 +103,23 @@ export default {
           color: #888888;
         }
       }
+    }
+  }
+
+  // comments
+  .comment {
+    margin-top: .5rem;
+    h3 {
+      color: #b7b7b7;
+        .author {
+          color: white;
+        }
+        .post {
+          color: #0074ad;
+        }
+    }
+    h4 {
+      color: #888888;
     }
   }
 
