@@ -522,6 +522,56 @@ export default {
             endpage: false,
             top10: true
           }
+        },
+        {
+          id: '04',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
+          genre: 'RECIPES',
+          title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
+          overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+          text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
+          image: 'our-office-4-square',
+          status: {
+            hero: false,
+            popular: false,
+            recent: false,
+            featured: false,
+            extended: false,
+            endpage: true
+          }
+        },
+        {
+          id: '05',
+          date: {
+            day: '12',
+            month: 'January',
+            year: '2019'
+          },
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
+          genre: 'RECIPES',
+          title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
+          overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+          text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
+          image: 'our-office-5-square',
+          status: {
+            hero: false,
+            popular: false,
+            recent: false,
+            featured: false,
+            extended: false,
+            endpage: true
+          }
         }
       ]
     }

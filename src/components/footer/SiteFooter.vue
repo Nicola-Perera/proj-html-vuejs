@@ -13,6 +13,7 @@
         <!-- most recent posts -->
         <div class="most_recent_posts">
           <h3>RECENT POSTS</h3>
+          <MiniPost v-for="post in posts" :post="post" :posts="posts" :key="post.id" v-show="post.status.endpage"/>
         </div>
 
         <!-- most recent comments -->
@@ -29,12 +30,17 @@
 </template>
 
 <script>
+import MiniPost from '../main/MiniPost.vue'
+
 export default {
   name: 'SiteFooter',
   props: {
     genres: [],
     posts: [],
     post: {}
+  },
+  components: {
+    MiniPost
   }
 }
 
@@ -44,6 +50,7 @@ export default {
 @import '../../assets/style/common.scss';
 
 .SiteFooter {
+  // common rules
   background-color: var(--theme-dark-grey);
   font-size: .6rem;
   .width80 {
@@ -60,6 +67,28 @@ export default {
   }
   .about, .most_recent_posts, .most_recent_comments, .categories {
     width: calc(100% / 4);
+  }
+
+  // posts
+  .most_recent_posts {
+    .MiniPost {
+      border-bottom: initial;
+      .post_image {
+        width: 5rem;
+        img {
+          border-radius: 2rem;
+        }
+      }
+      .post_content {
+        font-size: .7rem;
+        h3 {
+          color: #b7b7b7;
+        }
+        h4 {
+          color: #888888;
+        }
+      }
+    }
   }
 }
 
