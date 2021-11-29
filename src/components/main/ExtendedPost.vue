@@ -17,7 +17,7 @@
           <p class="post_text">{{ post.text }}</p>
           <div class="info container">
             <div class="engage">
-              <p>By <span>{{ post.author }}</span> <span>{{ post.genre }}</span> <span>12 Comments</span></p>
+              <p>By <span>{{ post.author.name }}</span> <span>{{ post.genre }}</span> <span>12 Comments</span></p>
             </div>
             <div class="read_more">
               <button>READ MORE</button>
@@ -42,6 +42,7 @@ export default {
 @import '../../assets/style/common.scss';
 
 .ExtendedPost {
+  margin: 3rem 0;
   .post_image {
     width: 100%;
     img {
@@ -69,7 +70,7 @@ export default {
     .text {
       width: 93%;
       padding-bottom: 1rem;
-      border-bottom: 2px solid grey;
+      border-bottom: 2px solid #eeeeee;
       padding: 0 .5rem;
       p {
         margin: 1rem 0;
@@ -88,7 +89,7 @@ export default {
         button {
           color: #888888;
           background-color: transparent;
-          border: 2p solid #888888;
+          border: 2p solid #eeeeee;
           border-radius: .2rem;
           padding: .3rem;
         }

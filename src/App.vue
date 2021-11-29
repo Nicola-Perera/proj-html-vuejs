@@ -39,7 +39,10 @@ export default {
             month: 'January',
             year: '2019'
           },
-          author: 'John Doe',
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
           genre: 'PHOTOGRAPY',
           title: 'How To Take Better Concert Pictures in 30 Seconds',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
@@ -61,7 +64,10 @@ export default {
             month: 'January',
             year: '2019'
           },
-          author: 'John Doe',
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
           genre: 'GADGETS',
           title: 'Gadgets that Make You Smartphone Even Smarter',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
@@ -83,7 +89,10 @@ export default {
             month: 'January',
             year: '2019'
           },
-          author: 'John Doe',
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
           genre: 'TRAVEL',
           title: '20 Top-Rated Tourist Attractions in Manhattan',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
@@ -105,7 +114,10 @@ export default {
             month: 'January',
             year: '2019'
           },
-          author: 'John Doe',
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
           genre: 'LIFESTYLE',
           title: 'The Best Way to Ride a Motorcycle',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
@@ -127,7 +139,10 @@ export default {
             month: 'January',
             year: '2019'
           },
-          author: 'John Doe',
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
           genre: 'TRAVEL',
           title: '5 Fun Things to Do at the Beach',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
@@ -149,7 +164,10 @@ export default {
             month: 'January',
             year: '2019'
           },
-          author: 'John Doe',
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
           genre: 'RECIPES',
           title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
@@ -171,7 +189,10 @@ export default {
             month: 'January',
             year: '2019'
           },
-          author: 'John Doe',
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
           genre: 'RECIPES',
           title: 'Simple Ways to Have a Pretty Face',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
@@ -193,7 +214,10 @@ export default {
             month: 'January',
             year: '2019'
           },
-          author: 'John Doe',
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
           genre: 'RECIPES',
           title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
@@ -215,7 +239,10 @@ export default {
             month: 'January',
             year: '2019'
           },
-          author: 'John Doe',
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
           genre: 'RECIPES',
           title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
@@ -237,7 +264,10 @@ export default {
             month: 'January',
             year: '2019'
           },
-          author: 'John Doe',
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
           genre: 'Recipes',
           title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
@@ -259,7 +289,10 @@ export default {
             month: 'January',
             year: '2019'
           },
-          author: 'John Doe',
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
           genre: 'RECIPES',
           title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
@@ -281,7 +314,10 @@ export default {
             month: 'January',
             year: '2019'
           },
-          author: 'John Doe',
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
           genre: 'RECIPES',
           title: 'Simple Ways to Have a Pretty Face',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
@@ -303,7 +339,10 @@ export default {
             month: 'January',
             year: '2019'
           },
-          author: 'John Doe',
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
           genre: 'RECIPES',
           title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
@@ -325,7 +364,10 @@ export default {
             month: 'January',
             year: '2019'
           },
-          author: 'John Doe',
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
           genre: 'RECIPES',
           title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
@@ -347,7 +389,10 @@ export default {
             month: 'January',
             year: '2019'
           },
-          author: 'John Doe',
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
           genre: 'RECIPES',
           title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
@@ -369,7 +414,10 @@ export default {
             month: 'January',
             year: '2019'
           },
-          author: 'John Doe',
+          author: {
+            name: 'John Doe',
+            image: 'avatar'
+          },
           genre: 'RECIPES',
           title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
