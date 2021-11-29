@@ -21,9 +21,19 @@
           <h3>RECENT COMMENTS</h3>
         </div>
 
-        <!-- categories -->
+        <!-- all categories -->
         <div class="categories">
           <h3>CATEGORIES</h3>
+          <div class="all_categories">
+            <!-- genres -->
+            <div v-for="genre in genres" class="genre categories" :class="genre.name" :key="genre.name">
+              <h2> {{ genre.name.toUpperCase() }} </h2>
+            </div>
+            <!-- categories -->
+            <div v-for="category in categories" class="category categories" :class="category.name" :key="category.name">
+                    <h2> {{ category.name.toUpperCase() }} </h2>
+                </div>
+          </div>
         </div>
       </div>
     </div>
@@ -36,6 +46,7 @@ export default {
   name: 'SiteFooter',
   props: {
     genres: [],
+    categories: [],
     posts: [],
     post: {}
   },
@@ -89,6 +100,11 @@ export default {
         }
       }
     }
+  }
+
+  // categories
+  .all_categories {
+    color: white;
   }
 }
 

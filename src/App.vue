@@ -2,7 +2,7 @@
   <div id="app">
     <SiteHeader :contacts="contacts" :nav="nav"/>
     <SiteMain :posts="posts" :genres="genres"/>
-    <SiteFooter :posts="posts"/>
+    <SiteFooter :posts="posts" :genres="genres" :categories="categories"/>
 
   </div>
 </template>
