@@ -81,6 +81,7 @@ export default {
           p {
             span {
               margin-right: .5rem;
+              color: #0088cc;
             }
           }
         }

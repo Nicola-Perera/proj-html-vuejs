@@ -35,7 +35,7 @@
             <div class="width80 container">
                 <div class="arrow left"><span>&lArr;</span></div>
                 <div v-for="genre in genres" class="genre" :class="genre.name" :key="genre.name">
-                    <h2> {{ genre.name }} </h2>
+                    <h2> {{ genre.name.toUpperCase() }} </h2>
                 </div>
                 <div class="arrow rigth"><span>&rArr;</span></div>
             </div>

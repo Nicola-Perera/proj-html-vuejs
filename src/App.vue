@@ -24,12 +24,12 @@ export default {
       nav: [{ name: 'HOME' }, { name: 'ELEMENT' }, { name: 'FEATURES' }, { name: 'PAGES' }, { name: 'PORTOFOLIO' }, { name: 'BLOG' }, { name: 'SHOP' }],
       contacts: [{ name: 'SIGN IN' }, { name: 'ABOUT US' }, { name: 'CONTACT US' }, { name: 'BUY NOW' }],
       genres: [
-        { name: 'GADGETS' },
-        { name: 'PHOTOGRAPHY' },
-        { name: 'LIFESTYLE' },
-        { name: 'FASHION' },
-        { name: 'RECIPES' },
-        { name: 'TRAVEL' }
+        { name: 'Gadgets' },
+        { name: 'Photography' },
+        { name: 'Lifestyle' },
+        { name: 'Fashion' },
+        { name: 'Recipes' },
+        { name: 'Travel' }
       ],
       posts: [
         {
@@ -238,7 +238,7 @@ export default {
             year: '2019'
           },
           author: 'John Doe',
-          genre: 'RECIPES',
+          genre: 'Recipes',
           title: 'Amazingly Fresh Fruit And Herb Drinks For Summer',
           overview: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
           text: 'Euismod atras vulputate iltricies etri elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel, congue sed ligula. Nam dolor ligula, faucibus id sodales in, auctor fringilla libero. Pellentesque pellentesque tempor tellus eget hendreit. Morbi id aliquam ligula. Aliquam id dui sem. Proin rhoncus consequat nisl, eu ornare mauris tincidunt vitae. [...]',
